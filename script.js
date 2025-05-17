@@ -1,3 +1,8 @@
+// light and dark mode
+const themeToggle = document.getElementById('theme-toggle');
+themeToggle.addEventListener('change', () => {
+    document.body.classList.toggle('dark');
+});
 
 const display = document.getElementById('display');
 const buttons = document.querySelectorAll('button');
